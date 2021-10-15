@@ -1,0 +1,317 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+    
+}
+
+@font-face{
+    font-family:bold;
+    src:url("../fonts/Lato-Bold.ttf");
+    
+    
+}
+
+@font-face{
+    font-family:thin;
+    src:url("../fonts/Lato-Thin.ttf");
+    
+    
+}
+
+@font-face{
+    font-family:regular;
+    src:url("../fonts/Lato-Regular.ttf");
+    
+    
+}
+
+@font-face{
+    font-family:medium;
+    src:url("../fonts/Lato-Medium.ttf");
+    
+    
+}
+html{
+    background-color: white;
+    color: #555;
+    font-family:lato;
+    font-weight: 300px;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    
+    
+    
+    
+}
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(hero.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position:center;
+    
+    
+    
+    
+}
+.row{
+    width: 1200px;
+    margin : 0 auto;
+  
+}
+.logo{
+    height: 100px;
+    width:auto;
+    margin-top: 40px;
+    
+    
+    
+}
+.main-nav{
+    float: right;
+    list-style: none;
+    
+    
+    
+    
+}
+
+
+.main-nav li{
+     display: inline-block;
+     margin-top:75px;
+     font-family: medium;
+    
+     
+}
+.main-nav li a:visited,.main-nav li a:link{
+    color: white;
+    text-decoration: none;
+    margin-left: 50px;
+    text-transform: uppercase;
+    border: 2px solid transparent;
+   
+}
+
+.main-nav li a:active,.main-nav li a:hover{
+    border-bottom: 2px solid #e67e32;
+    text-decoration: none;
+    transition:border 0.5s;
+    
+    
+}
+
+
+.hero-text-box{
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+    
+
+    
+    
+    
+}
+
+h1,h2,h3{
+    
+    text-transform: uppercase;
+    font-weight: 300;
+    font-family: bold;
+    
+    
+    
+    
+    
+}
+
+h1{
+    color: white;
+    font-size: 240%;
+    word-spacing: #fff;
+    
+   
+    
+
+}
+
+
+
+
+
+h2{
+    text-align: center;
+    font-size: 180%;
+    padding-top: 70px;
+    color: black;
+    word-spacing: 2px;
+   
+    
+    
+    
+    
+    
+    
+    
+}
+
+
+h2:after{
+    background-color: #e67e32;
+    content: "";
+    display: block;
+    height: 2px;
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
+    
+    
+    
+    
+    
+    
+}
+
+
+.btn:link,.btn:visited{
+    display: inline-block;
+    text-decoration: none;
+    border: 2px solid #ccc;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border-radius: 200px;
+    margin-top: 10px;
+    font-family: regular;
+    
+    
+    
+    
+    
+}
+.btn-full:link,.btn-full:visited{
+    border: 2px solid #e67e22;
+    background:#e67e22;
+    color: white;
+    
+    
+    
+    
+    
+}
+.btn-full:active,.btn-full:hover{
+    background-color: #e67e22;
+   
+    
+    
+}
+.btn-ghost:link,.btn-ghost:visited{
+    border: 2px solid #e67e22;
+    color: white;
+    margin-left: 15px;
+    
+    
+}
+.btn-ghost:active,.btn-ghost:hover{
+    background-color:#e67e22; 
+    
+    
+}
+
+
+
+
+.long-copy {
+    width: 52%;
+    line-height: 140%;
+    margin: 0 auto;
+    margin-top: 20px;
+    font-family:medium;
+    
+}
+section{
+    
+    padding: 80px 0px;
+    
+}
+  
+
+.small-icon{
+    font-size: 350%;
+    color:#e67e22;
+    display: block;
+    
+    
+    
+}
+h3{
+    font-size:100%;
+    
+    
+    
+}
+.p-box{
+    font-size:100%;
+    line-height: 145%;
+    text-transform: capitalize;
+    
+
+   
+   
+}
+.section-meals{
+    padding: 0;
+    
+    
+}
+
+ 
+.meal-showcase li{
+    
+    display: block;
+    float: left;
+    width: 25%;
+    list-style: none;
+    
+}
+
+.meal-photo{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    overflow: hidden;
+    background-color: black;
+    
+    
+}
+.meal-photo img{
+    width: 100%;
+    opacity: 0.5;
+    transform: scale(1.15);
+    transition: transform 0.5s,opacity 0.5s;
+   
+}
+.meal-photo img:hover{
+    opacity: 1;
+    transform: scale(1.03);
+   
+}
+
+.clearfix:after{
+    content: "";
+    clear: both;
+    height: 0;
+    visibility: hidden;
+    
+    
+}
+  
+
+
+
+    
+    
+
+
+
